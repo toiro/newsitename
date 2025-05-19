@@ -1,0 +1,18 @@
+.accordion-item {
+  margin: 1em 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0.5em;
+}
+
+.accordion-item summary {
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #f8f8f8;
+  padding: 0.5em;
+  border-radius: 5px;
+}
+
+.accordion-item[open] summary {
+  background-color: #e0e0e0;
+}
