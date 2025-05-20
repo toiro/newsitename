@@ -1,3 +1,10 @@
 title: 液化水素貯槽WG
-markdown: kramdown
+
+markdown: CommonMark
+commonmark:
+  options: ["UNSAFE", "SMART", "FOOTNOTES"]
+  extensions: ["strikethrough", "autolink", "table", "tagfilter"]
+
 theme: minima
+plugins:
+  - jekyll-feed
