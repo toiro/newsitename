@@ -1,4 +1,5 @@
-title: 液化水素貯槽WG
+title: 液化水素貯槽WGデモサイト
+author: Yusuke Soraji
 
 theme: minima
 markdown: CommonMarkGhPages
@@ -8,3 +9,8 @@ commonmark:
 
 plugins:
   - jekyll-feed
+  - jekyll-titles-from-headings
+
+titles_from_headings:
+  strip_title: true
+  collections: false

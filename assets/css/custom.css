@@ -16,3 +16,29 @@
 .accordion[open] summary {
   background-color: #e0e0e0;
 }
+
+main.page-content {
+  padding: 0;
+}
+
+.page-heading-wrapper {
+  width: 100%;
+  aspect-ratio: 3 / 1;
+  background-position: center center;
+  background-image: url(https://lh3.googleusercontent.com/jwB7TNEQytQfEbAGoLmycJYWYrZsiOcEwGIOB7beM7Of6_AXs-FdfcFfh-1KbxJnj2U4LJspWnDAbNxusuZTy9aBaVfTicLo1preJp86a0xyFB3LeuKUpwG90dyn3zlyf_VcqTGJ2Cc=w16383);
+  background-size: cover;
+  background-color: rgba(255,255,255, 0.5);
+  background-blend-mode: overlay;
+  display: flex;
+  justify-content: center;  /* 横方向中央 */
+  align-items: center;      /* 縦方向中央 */
+}
+
+.page-heading {
+  text-shadow:
+    1px 1px 0 #fff,
+    -1px 1px 0 #fff,
+    -1px -1px 0 #fff,
+    1px -1px 0 #fff;
+  text-align: center;
+}
