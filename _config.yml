@@ -1,4 +1,4 @@
-title: 液化水素貯槽WGデモサイト
+title: GitHubPagesデモサイト
 author: Yusuke Soraji
 
 theme: minima
@@ -14,3 +14,17 @@ plugins:
 titles_from_headings:
   strip_title: true
   collections: false
+
+# ヘッダーメニューに表示するページの設定
+header_pages:
+  - about-system.md
+  - setup.md
+  - commonmark-guide.md
+  - page-management.md
+  - posts.md
+  - file-management.md
+  - update-operations.md
+  - templates.md
+  - configuration.md
+  - minima-customization.md
+  - troubleshooting.md
