@@ -3,6 +3,8 @@
 このサイトは **Jekyll + Minima + CommonMarkGhPages** を使用した GitHub Pages サイトです。  
 **社会連携講座の活動報告・議事録共有を目的とした非情報系理系研究者向け運用マニュアル**として構成されています。
 
+🔗 **サイトURL**: https://utsoraji.github.io/githubpagesdemo/
+
 ## 📋 マニュアル構成
 
 ### 🏠 **トップページ** (`index.md`)
@@ -33,10 +35,10 @@
 - HTMLとの併用（`<br>`、`<span style="">`など）
 
 ### 📝 **ページ管理** (`page-management.md`)
-- Front Matter の設定
-- layout: page の使い方
+- Front Matter が不要な設定について
 - ファイル構成とURL構造
 - ナビゲーションへの追加方法
+- ページタイトルの自動生成
 
 ### 📰 **投稿機能（議事録・お知らせ）** (`posts.md`)
 - _posts フォルダの活用
@@ -60,16 +62,15 @@
 - プラグイン設定（jekyll-feed, jekyll-titles-from-headings）
 
 ### 🎨 **Minima テーマカスタマイズ** (`minima-customization.md`)
-- テーマの構造理解
-- _includes, _layouts のカスタマイズ
-- custom-head.html の活用
-- assets/css/custom.css での見た目調整
-- **上級機能紹介**（Sass変数、カスタムレイアウト）
+- 非情報系研究者向けの安全なカスタマイズ
+- 色合いとフォントサイズの調整
+- ロゴ画像の追加
+- ローカル編集環境構築後に実施する内容
 
 ### 🔄 **更新作業** (`update-operations.md`)
-- 定期更新の流れ
-- Web エディタでの編集
-- 変更の確認・公開
+- Web エディタでの編集（基本）
+- ローカル編集環境の構築（応用）
+- FTPとの対比によるGit運用の理解
 - **GitHub Releases での報告書PDF管理**
 - 複数人での管理
 
@@ -77,13 +78,14 @@
 - Jekyll ビルドエラーの対処
 - CommonMarkGhPages 特有の問題
 - Minima テーマでの表示問題
-- Front Matter エラーの解決
+- 自己解決のための情報収集方法
 
 ### 📋 **社会連携講座向けテンプレート** (`templates.md`)
 - 講座概要ページテンプレート
-- 議事録投稿テンプレート（Front Matter + CommonMark）
+- 議事録投稿テンプレート（Front Matterは最小限）
 - メンバー紹介ページテンプレート
 - 報告書一覧ページテンプレート（GitHub Releases リンク付き）
+- 削除されたabout.mdとpublications.mdの記述例
 
 ---
 
@@ -92,7 +94,7 @@
 - **GitHub Pages**: 無料ホスティング
 - **Jekyll**: 静的サイトジェネレータ
 - **Minima**: シンプルで清潔なテーマ
-- **CommonMarkGhPages**: 拡張Markdown（表・脚注・取り消し線対応）
+- **CommonMarkGhPages**: GitHub Flavored Markdownに近い拡張Markdown（表・脚注・取り消し線対応）
 
 ---
 
@@ -276,9 +278,9 @@ A: `assets/css/custom.css` でスタイルをカスタマイズできますが�
 
 ---
 
-## 📞 サポート
+## 自己解決のための情報
 
-技術的な問題や質問がある場合は、プロジェクト管理者までご連絡ください。
+技術的な問題が発生した場合は、まず[トラブルシューティング](troubleshooting.md)を参照し、自己解決のための情報収集を行ってください。
 
 ---
 

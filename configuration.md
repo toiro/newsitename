@@ -122,6 +122,55 @@ header_pages:
   - contact.md
 ```
 
+#### header_pages の詳細
+- **サイトのナビゲーションメニュー**に表示するページを指定
+- **配列形式**でファイル名を列挙
+- **表示順序**は記載順に従う
+- **Front Matter**で `title` を設定しないページは、最初の見出しがタイトルになる
+
+#### 実際の例（このサイトの設定）
+```yaml
+header_pages:
+  - about-system.md          # GitHub Pages + Jekyll とは
+  - setup.md                 # サイト作成の準備
+  - commonmark-guide.md      # CommonMark 記法
+  - page-management.md       # ページ管理
+  - posts.md                 # 投稿機能
+  - file-management.md       # ファイル・資料管理
+  - update-operations.md     # 更新作業
+  - templates.md             # テンプレート
+  - configuration.md         # _config.yml 設定詳細
+  - minima-customization.md  # Minima テーマカスタマイズ
+  - troubleshooting.md       # トラブルシューティング
+```
+
+#### header_pages を設定しない場合
+`header_pages` を設定しない（コメントアウトまたは削除）すると：
+- **自動的に**ルートディレクトリの `.md` ファイルがナビゲーションに表示される
+- **アルファベット順**で並び替えられる
+- **index.md** は除外される
+
+```yaml
+# header_pages を設定しない場合の例
+# header_pages:
+#   - about.md
+#   - contact.md
+```
+
+この場合、以下のような自動表示になります：
+```
+about.md → About
+contact.md → Contact  
+help.md → Help
+members.md → Members
+```
+
+#### 注意事項
+- ファイル名は**拡張子 `.md` も含めて**記載する
+- 存在しないファイルを指定するとリンクエラーになる
+- ページを増やす場合は、この設定も合わせて更新する
+- **表示順序を制御したい場合**は `header_pages` の設定が必須
+
 ### Google Analytics 設定
 ```yaml
 google_analytics: G-XXXXXXXXXX  # Google Analytics ID

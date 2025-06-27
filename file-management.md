@@ -7,10 +7,7 @@
 ### 社会連携講座での推奨構成
 ```
 ├── assets/
-│   └── images/          # 画像ファイル
-│       ├── logos/       # ロゴ・アイコン
-│       ├── diagrams/    # 図表・グラフ
-│       └── photos/      # 写真
+│   └── images/          # 画像ファイル（PNG, JPG, SVG等）
 └── GitHub Releases      # PDF・報告書
 ```
 
@@ -327,20 +324,17 @@ Release title は日本語でわかりやすく記述できます。
 ```
 assets/
 └── images/
-    ├── logos/
-    │   ├── university-logo.png
-    │   └── project-logo.svg
-    ├── diagrams/
-    │   ├── organization-chart.png
-    │   ├── project-timeline.png
-    │   └── budget-breakdown.png
-    ├── photos/
-    │   ├── seminar-20250625.jpg
-    │   ├── meeting-room.jpg
-    │   └── team-photo-2025.jpg
-    └── screenshots/
-        ├── system-interface.png
-        └── data-dashboard.png
+    ├── university-logo.png
+    ├── project-logo.svg
+    ├── organization-chart.png
+    ├── project-timeline.png
+    ├── budget-breakdown.png
+    ├── seminar-20250625.jpg
+    ├── meeting-room.jpg
+    ├── team-photo-2025.jpg
+    ├── system-interface.png
+    ├── data-dashboard.png
+    └── hydrotank_illust_en.png
 ```
 
 ### ファイル命名の統一ルール
@@ -360,6 +354,7 @@ diagram-organization-2025.png
 photo-seminar-20250625.jpg
 chart-budget-q1.png
 logo-university-main.svg
+hydrotank_illust_en.png
 ```
 
 ## 外部ファイルの埋め込み
@@ -426,20 +421,6 @@ A: 以下を確認：
 - ファイルサイズが制限内か
 - ネットワーク接続は正常か
 - ブラウザを変更してみる
-
-## ファイル管理の定期メンテナンス
-
-### 月次チェック項目
-- [ ] 不要ファイルの削除
-- [ ] ファイル名の統一性確認
-- [ ] リンク切れチェック
-- [ ] ストレージ使用量確認
-
-### 年次整理作業
-- [ ] 古いファイルのアーカイブ
-- [ ] フォルダ構成の見直し
-- [ ] 命名規則の更新
-- [ ] バックアップ状況確認
 
 ---
 
