@@ -17,3 +17,4 @@ titles_from_headings:
 
 # ヘッダーメニューに表示するページの設定
 header_pages:
+  - newpage.md
