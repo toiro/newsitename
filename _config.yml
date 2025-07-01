@@ -17,14 +17,3 @@ titles_from_headings:
 
 # ヘッダーメニューに表示するページの設定
 header_pages:
-  - about-system.md
-  - setup.md
-  - commonmark-guide.md
-  - page-management.md
-  - posts.md
-  - file-management.md
-  - update-operations.md
-  - templates.md
-  - configuration.md
-  - minima-customization.md
-  - troubleshooting.md
